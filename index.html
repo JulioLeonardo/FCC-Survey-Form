@@ -1,0 +1,195 @@
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=VT323&display=swap" rel="stylesheet">
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<class="container">
+  <header>
+    <h1 class= "vt" id="title">MatrixCo.<br>Resumé Registration Form</h1>
+    <p class= "os" id="description">Do you want to join the fight?</p>
+  </header>
+  <div class="form">
+  <form id="survey-form">
+    <label 
+           id="name-label" 
+           class="vt" 
+           for="name">
+      Name</label><br>
+    <input 
+           id="name" 
+           type="text" 
+           placeholder="Name" 
+           required>
+    <br>
+    
+    <label 
+           id="email-label" 
+           class="vt" 
+           for="email"><br>
+      Email</label><br>
+    <input 
+           id="email" 
+           type="email" 
+           placeholder="Email" 
+           required>
+    <br><br>
+    
+    <label 
+           id="number-label" 
+           class="vt" 
+           for="age">
+      Age(optional)
+    </label><br>
+    <input 
+           id="number" 
+           type="number" 
+           min=10 max=99 
+           placeholder="Age">
+    <br><br>
+    
+    <label 
+           class="vt" 
+           for="area">
+      Area of Interest
+    </label><br>
+    <select id="dropdown" name="area" required>
+    <option disabled selected value></option>
+        <option value="cyber-security">Cyber Security</option>
+        <option value="devops">DevOps</option>
+        <option value="gaming">Gaming</option>
+        <option value="webDev">Web Development</option>
+        <option value="other">Other</option>
+    </select> 
+      <br><br>
+      
+    <label class="vt">
+      What's Your Experience Level? 
+    </label>  <br>
+    <label class="vt">
+        <input
+          name="experience"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked
+        />Just Woke</label
+      ><br>
+      <label class="vt">
+        <input
+          name="experience"
+          value="maybe"
+          type="radio"
+          class="input-radio"
+        />Trinity</label><br>
+
+      <label class="vt">
+        <input
+          name="experience"
+          value="not-sure"
+          type="radio"
+          class="input-radio"
+        />Neo</label>
+      </label><br>
+  
+  <div class="languages">
+  <p class="vt">
+        Which languages are you comfortable with?
+        </p>
+
+      <label class="vt"
+        ><input
+          name="languages"
+          value="python"
+          type="checkbox"
+          class="input-checkbox"
+        />Python</label
+      >
+      <label class="vt"
+         ><input
+          name="languages"
+          value="Java"
+          type="checkbox"
+          class="input-checkbox"
+        />Java</label
+      >
+      <label class="vt"
+        ><input
+          name="languages"
+          value="c/c++"
+          type="checkbox"
+          class="input-checkbox"
+        />C / C++</label
+      >
+      <label class="vt"
+        ><input
+          name="languages"
+          value="javascript"
+          type="checkbox"
+          class="input-checkbox"
+        />Javascript</label
+      >
+      <label class="vt"
+        ><input
+          name="languages"
+          value="go"
+          type="checkbox"
+          class="input-checkbox"
+        />Go</label
+      >
+      <label class="vt"
+        ><input
+          name="languages"
+          value="r"
+          type="checkbox"
+          class="input-checkbox"
+        />R</label
+      >
+      <label class="vt"
+        ><input
+          name="languages"
+          value="swift"
+          type="checkbox"
+          class="input-checkbox"
+        />Swift</label
+      >
+      <label class="vt"
+        ><input
+          name="languages"
+          value="php"
+          type="checkbox"
+          class="input-checkbox"
+        />PHP</label
+      >
+      <label class="vt"
+        ><input
+          name="languages"
+          value="c#"
+          type="checkbox"
+          class="input-checkbox"
+        />C#</label
+      >
+      <label class="vt"
+        ><input
+          name="languages"
+          value="matlab"
+          type="checkbox"
+          class="input-checkbox"
+        />Matlab</label
+      >
+  </div>
+    
+      <p class="vt">Why do you want to work with us?</p>
+      <textarea
+        id="question"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your comment here..."
+      ></textarea>
+<br><br>
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+  </form>
+  </div>
+  
+</div>
+
